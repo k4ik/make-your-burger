@@ -37,4 +37,4 @@ You'll need to have Node.js and npm installed on your machine. You can download 
 Contributions are welcome! Feel free to submit pull requests or open issues.
 
 ### License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
