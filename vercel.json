@@ -1,19 +1,16 @@
 {
     "version": 2,
-    "functions": {
-      "api": {
-        "handler": "api/index.cjs"
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/node"
       }
-    },
+    ],
     "routes": [
-      {
-        "src": "/api/.*",
-        "dest": "/api/index.cjs"
-      },
-      {
-        "src": "/(.*)",
-        "dest": "/"
-      }
-    ]
+      { "handle": "vercel", "src": "/(.*)" }
+    ],
+    "env": {
+      "NODE_ENV": "production"
+    }
   }
   
