@@ -1,0 +1,19 @@
+{
+    "version": 2,
+    "functions": {
+      "api": {
+        "handler": "api/index.cjs"
+      }
+    },
+    "routes": [
+      {
+        "src": "/api/.*",
+        "dest": "/api/index.cjs"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/"
+      }
+    ]
+  }
+  
