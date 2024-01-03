@@ -5,7 +5,7 @@ Make Your Burger is a simple CRUD application built with Vue.js 3 that allows us
 To get a local copy of the project up and running, follow these steps:
 
 ### Prerequisites
-You'll need to have Node.js and npm installed on your machine. You can download them from nodejs.org.
+You'll need to have Node.js and npm installed on your machine. You can download them from [nodejs.org](https://nodejs.org/en).
 
 ### Installation
 1. Clone the repository to your local machine using Git:
@@ -37,4 +37,4 @@ You'll need to have Node.js and npm installed on your machine. You can download 
 Contributions are welcome! Feel free to submit pull requests or open issues.
 
 ### License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
